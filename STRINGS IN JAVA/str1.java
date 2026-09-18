@@ -30,6 +30,5 @@ public class str1 {
         String lastName = "Kumar";
         String fullName = firstName + " " + lastName;
         printLatter(fullName);
-
     }
 }

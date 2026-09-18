@@ -6,6 +6,7 @@ public class prac1 {
                         System.out.println(printDigit(Arr, key));
     }
     public static int printDigit(int Arr[][] , int key){
+
             int count = 0; 
 
             for(int i = 0; i<Arr.length; i++){

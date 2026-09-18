@@ -19,9 +19,8 @@ public class str3 {
           }
           int X2 = x*x;
           int Y2 = y*y;
-
-          return (float)(Math.sqrt(X2 + Y2));
-          
+          float disp = (float)(Math.sqrt(X2 + Y2));
+          return disp;
     }
     public static void main(String[] args) {
         String path = "WNEENESENNN";
@@ -30,3 +29,5 @@ public class str3 {
 
     }
 }
+
+    
