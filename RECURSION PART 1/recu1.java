@@ -9,7 +9,6 @@ public class recu1 {
     public static void Increasing(int n){
         if(n == 1){
             System.out.print(n+" ");
-            
             return;
         }
         Increasing(n - 1);
@@ -18,7 +17,6 @@ public class recu1 {
     public static void Decreasing(int n){
         if(n == 1){
             System.out.print(n);
-            System.out.println();
             return;
         }
         System.out.print(n+" ");
